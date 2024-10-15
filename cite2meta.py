@@ -210,7 +210,7 @@ def fetch_pubmed_metadata(title=None, pmid=None):
                 # 仅当 ID 列表非空时，提取第一个 ID
                 pubmed_id = id_list.find("Id").text
                 print(f"PubMed ID found: {pubmed_id}")
-                return fetch_pubmed_metadata(pmid=pubmed_id[0])  # 使用第一个结果的 PMID
+                return fetch_pubmed_metadata(pmid=pubmed_id)  # 使用第一个结果的 PMID
             else:
                 print("No PubMed IDs found.")
                 return None
