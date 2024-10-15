@@ -1,6 +1,6 @@
 Convert the reference entry into metadata bibtex, based on crossref, PubMed, arivX api retrieval. 
 
-基于crossref、PubMed、arivX api检索，将引用条目转换为元数据索引。
+基于crossref、PubMed、arivX api检索，将引用条目转换为bibtex元数据。
 
 Crossref will inevitably have the problem of no detailed data such as journal page numbers, and I have no good solution. PubMed is used as supplementary.
 
